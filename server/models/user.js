@@ -36,6 +36,7 @@ userSchema.pre('save', function(next){
     }else
     {
         next();
+        
     }
     
 });
