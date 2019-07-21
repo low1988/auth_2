@@ -12,6 +12,7 @@ const {User} = require('./models/user');
 const {auth} = require('./middleware/auth');
 
 app.use(bodyParser.json());
+
 app.use(cookieParser());
 
 app.post('/api/user',(req,res)=>{
